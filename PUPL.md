@@ -1,21 +1,11 @@
 # PUPL - Paid Use Permissive License
 
-### Summary
-for software offered under these terms
-- non-production use is free, as is production use on up to 10 cores
-- you may need to pay for use beyond that, but prices are capped at a maximum and non-discriminatory
-- you can freely copy, modify and distribute the software
-- if you distribute a derivative work under more restrictive terms, eg without source, you need to pay for use (as above) on your users' behalf
-
-
-### The License
-
 Subject to the following restrictions, Licensor grants you a non-exclusive,
 worldwide (subject to applicable laws) license to copy, modify, display,
 use, create derivative works, and redistribute the Software. 
 
 Restrictions:
-- the above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software
+- the copyright notice and the license notice shall be included or referenced in all copies or substantial portions of the Software
 
 - if you use the software in production you must obtain a use-license or equivalent from the Licensor
 
