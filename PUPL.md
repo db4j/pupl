@@ -19,7 +19,8 @@ otherwise, you must acquire on the recipient's behalf, or verify they possess, a
 ### Assurances
 The Licensor agrees:
 
-- to a fixed ($100 if unspecified) strike price
+- to a fixed ($10 if unspecified) strike price
+
 - to publish per-annum and lifetime full prices, not to exceed 1 times and 10 times the strike price respectively, and to announce changes a month in advance
 - to disclose any known additional 3rd party claims on use of the software
 - to issue use-licenses (per-annum and lifetime) purchasable without further restriction at full price (or, at your option, the respective strike prices) that will:
@@ -28,6 +29,7 @@ The Licensor agrees:
   - without lapses, entitle purchase and renewal of 4 additional units at that original price (these units don't entitle additional unit rights, but otherwise act as full price units)
   - credit the greater of the current or the paid price of your purchased version towards upgrade to another version
   - permit the holder to use the Software for production on, at the holder's choice, either a single core (i.e., an independent actual processing unit) or the computational equivalent of a single core of a 2015 intel core i5 6600, for a period of 1 year (per-annum) or the term of the copyright (lifetime), starting at the time of purchase
+
 - to allow all use-licenses purchased at non-zero-cost to be applied equally to use of either the original work or any derivative work, though derivative works may add additional restrictions
 
 - to grant a perpetual zero-cost non-transferable waiver for production use on up to 10 cores (independent actual processing units) of software licensed under these terms; this waiver not to be combined by multiple executions of this agreement between the parties, whether for the same or other software
