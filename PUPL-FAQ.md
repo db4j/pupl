@@ -42,16 +42,24 @@ in spite of these risks, i did purchase and use jetbrain's Webstorm, and wasn't 
 part of my inspiration for this license was shaped by trying to prevent the sort of thing that happened with jetbrains
 
 
+### why not the MariaDB BSL (Business Source License) ?
+there are no limits on the use-license terms that the BSL requires.
+this hurts developer collaboration and allows the Licensor to take advantage of customer lockin
+
+
 # licensing for derivative works
 
 ### can i make a derivative work with the new portion licensed under the MIT license
-- yes, and this is also true for similar (GPL-compatible) licenses such as the Apache License
+- yes, and this is also true for similar licenses such as the Apache License
 - tell the recipient about the copyright and license terms
+
+### can i make a derivative work with the new portion licensed under the GPL license
+- almost certainly not, though i haven't checked with the FSF
 
 ### can i make a derivative work with the new portion licensed under this license
 - yes
 - tell the recipient about the copyright and license terms
-- if you charge a user for a use-license, you need to verify they have one from the original work
+- if you charge a user for a use-license, you need to verify they have one for the original work too
 - users may use any non-zero-cost use-license to satisfy this requirement
 - you can buy use-licenses for the original and transfer them to a user
 
@@ -80,10 +88,11 @@ you can also contact the developer and negotiate other terms for your specific c
 
 ### if my usage of software licensed under these terms increases, will additional use-licenses cost more than i paid initially ?
 in general, the price may increase. however, a few rules exist to protect you if you scale
+
 - you'll never pay more than the strike price for a per-annum use-license, or 10 times that for a lifetime
 - if you paid full price for a per-annum (without lapses) or a lifetime use-license, you're entitled to purchase 4 additional use-licenses at that same price
 - price changes must be announced a month in advance
-- full price licenses are transferable, so you could buy existing use-licenses from someone that is no longer using it
+- full price licenses are transferable, so you could buy existing use-licenses from someone that is no longer using them
 - 3rd parties can make derivative works that are more efficient, allowing your current licenses to process more data
 
 
@@ -93,14 +102,13 @@ if you think that you're likely to use the software long term, then you may want
 
 
 ### if i buy a version today, how does this license protect against price increases of future versions ?
-a full price license entitles you to use any version released in the next year, so short term this offers some protection
-also, much like FOSS, 3rd parties can develop similar functionality as those future versions based on the current version and compete with the upstream. this competition should help limit the price increases to real value added in future versions
+much like FOSS, 3rd parties can develop similar functionality as those future versions based on the current version and compete with the original. this competition should help limit the price increases to real value added in future versions
 
-a full price lifetime use-license can be upgraded to a later version. the greater of the price you paid and the current price of your version will be credited towards the full price for the new version
+a full price use-license can be credited toward a later version. the greater of the price you paid and the current price of your version will be credited towards the full price for the new version
 
 
 ### doesn't this license encourage you to make your software inefficient so it uses more cores ?
-again, much like FOSS, 3rd parties can develop (and profit from) more efficient implementations and compete with the upstream. this competition should result in efficient implementations
+again, much like FOSS, 3rd parties can develop (and profit from) more efficient implementations and compete with the original software. this competition should result in efficient implementations
 
 you can apply an existing use-license from the developer to your use-license requirements for a derivative work if any of the following are true:
 - your use-license was purchased at non-zero cost
@@ -109,7 +117,7 @@ you can apply an existing use-license from the developer to your use-license req
 - the derivative is licensed under this license at no per-use cost to you
 
 
-note: in some cases, the 3rd party may charge for their version
+note: 3rd party can charge for their version
 
 
 
@@ -129,6 +137,7 @@ initially, the ecosystem for this software is limited and early adopters are tak
 
 ### why are non-production usages free ?
 it's an arbitrary line, but:
+
 - using the software to prototype new projects, learn how to use it, teach it to others, benchmark it, and test it helps adoption
 - non-production uses don't necessarily indicate utility
 - an organization using the software in production, and wishing to stop using it, might need to run extra instances of it to develop or test compatible systems. being able to reverse engineer the software is an important freedom and limits the negative effects of lockin
@@ -139,6 +148,7 @@ there's no perfect answer on where to draw the line, but this is a decent compro
 The central idea is that the software is used for the sake of the data that it produces, manipulates or stores. examples include a web server accessed on the internet, an internal app employees use to record timesheets, and a GUI that helps visualize data from a database
 
 some examples of non-production uses:
+
 - prototyping a new system, where the output data is not used directly
 - learning to use, or teaching others to use, the Software
 - benchmarking or testing the Software or systems built with it
@@ -147,6 +157,7 @@ some examples of non-production uses:
 
 ### are there any known flaws with this license
 note: this refers to flaws in the license, not flaws in software that has been licensed with it
+
 - IANAL
 - i'd like to offer current users stronger protection, eg unlimited scale,
 but can't figure out how to do that without being effectively fixed-price
@@ -154,10 +165,12 @@ but can't figure out how to do that without being effectively fixed-price
 
 
 what are the goals of this license ?
- - provide end users and ISVs with predictable future costs
- - provide the developer with income if the software is widely used
- - encourage development of useable software, vs tools that will drive support-based income
 
+- provide end users and ISVs with predictable future costs
+  - encourage adoption
+  - encourage developer collaboration
+- provide the developer with income if the software is widely used
+- encourage development of useable software, vs tools that will drive support-based income
 
 
 copyright nqzero 2016
