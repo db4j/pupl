@@ -6,8 +6,16 @@ no
 ### how do i apply this license ?
 choose a strike price.
 this is the maximum that anyone will ever need to pay you to use your software on 1 core for 1 year.
-add a header to your software stating the license and strike price, eg "this software is licensed under the terms of the nqzero PUPL, with a per-annum strike price of $100".
-you should be prepared to meet the assurances, eg to publish full prices and issue licenses
+add a header to your software stating the license and strike price, eg "this software is licensed under the terms of the PUPL, with a per-annum strike price of $100".
+the strike price may also be specified in american dollars by appending it to the name, eg PUPL/100 implies a strike of $100.
+you should include a copy of license in your documentation
+and you should be prepared to meet the assurances, eg to publish full prices and issue licenses
+
+
+### what does PUPL/100 mean ?
+the number after the slash is the strike price in american dollars, so
+it means the PUPL license with a strike price of $100 american.
+it's an easy and succinct way to specify the strike price
 
 
 ### is this license an open source or Free Software (FOSS) license ?
@@ -16,7 +24,7 @@ please don't refer to this license, or to software licensed under it, as either.
 it's possible that with a strike price of zero it would be, but in this case it would be better to use an established FOSS license instead
 
 
-### has a lawyer signed off on this license ?
+### has a lawyer commented on this license ?
 no.
 when i get the general idea hashed out i may pay a lawyer to look at it.
 i guess my inspiration is the json license - it's plain english
